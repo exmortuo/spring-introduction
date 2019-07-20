@@ -6,8 +6,8 @@ import java.math.BigDecimal;
 
 @Data
 public class PayUCreditCardProcessor implements CreditCardProcessor {
-    @Override
-    public ChargeResult charge(CreditCard creditCard, BigDecimal amount) {
-        return null;
-    }
+  @Override
+  public ChargeResult charge(CreditCard creditCard, BigDecimal amount) {
+    return new ChargeResult(true, "");
+  }
 }
