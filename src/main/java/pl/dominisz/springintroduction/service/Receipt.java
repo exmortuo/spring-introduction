@@ -41,4 +41,11 @@ public class Receipt {
   }
 
 
+    public boolean isSuccessfull() {
+        return successfull;
+    }
+
+    public BigDecimal getAmount() {
+        return amount;
+    }
 }
